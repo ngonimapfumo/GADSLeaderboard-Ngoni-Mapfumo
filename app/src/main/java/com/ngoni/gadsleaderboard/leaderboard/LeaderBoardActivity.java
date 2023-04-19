@@ -30,8 +30,10 @@ public class LeaderBoardActivity extends AppCompatActivity {
         submit_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LeaderBoardActivity.this, SubmitActivity.class);
-                startActivity(intent);
+             //   Intent intent = new Intent(LeaderBoardActivity.this, SubmitActivity.class);
+                startActivity(Intent(LearderBoardActivity.this,SubmitActivity.class));
+                
+                
             }
         });
 
